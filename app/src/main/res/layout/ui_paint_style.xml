@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--先注释3运行1,2-->
+    <!--后取消注释-->
+    <!--1-->
+    <com.yxmcute.viewcollect.paint.PaintView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:paintColor="@android:color/darker_gray"
+        app:paintStyle="fill" />
+    <!--2-->
+    <com.yxmcute.viewcollect.paint.PaintView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:paintColor="@android:color/holo_blue_bright"
+        app:paintStyle="stroke" />
+    <!--3-->
+    <com.yxmcute.viewcollect.paint.PaintView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:paintColor="@android:color/holo_green_light"
+        app:paintStyle="fill_stroke" />
+</FrameLayout>
